@@ -19204,6 +19204,30 @@ div#btn1111 .playweb {
         display: block
     }
 
+    .btn-pc {
+        display: flex !important;
+        max-width: 90%;
+        margin: 1rem auto 0;
+        padding-top: 1.5rem;
+    }
+
+    .btn-pc .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .btn-pc .btn_web_pc {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .btn-pc .btnstore {
+        max-width: 80%;
+        margin: 5px auto;
+    }
+
     .line {
         max-width: 50%;
         margin: -.3rem auto .3rem
@@ -19820,6 +19844,30 @@ div#btn1111 .playweb {
 }
 
 @media only screen and (min-width:320px) and (max-width:1024px) {
+    .btn-pc {
+        display: flex !important;
+        max-width: 95%;
+        margin: 1rem auto 0;
+        padding-top: 1rem;
+    }
+
+    .btn-pc .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .btn-pc .btn_web_pc {
+        max-width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .btn-pc .btnstore {
+        max-width: 85%;
+        margin: 3px auto;
+    }
+
     #game .row .slick-track {
         align-items: flex-end
     }
