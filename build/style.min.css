@@ -19248,6 +19248,30 @@ div#btn1111 .playweb {
         display: none !important
     }
 
+    .btn-pc {
+        display: flex !important;
+        max-width: 90%;
+        margin: 1rem auto 0;
+        padding-top: 1.5rem;
+    }
+
+    .btn-pc .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .btn-pc .btn_web_pc {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .btn-pc .btnstore {
+        max-width: 80%;
+        margin: 5px auto;
+    }
+
     .more-mb {
         display: flex !important
     }
